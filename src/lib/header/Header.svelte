@@ -1,124 +1,165 @@
 <script>
-	import { page } from '$app/stores';
-	import logo from './svelte-logo.svg';
+  import { page } from "$app/stores";
 </script>
 
 <header>
-	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
-		</a>
-	</div>
+  <div class="container">
+    <div class="flex flex-row">
+      <auro-lockup>
+        <span slot="title">Fly</span>
+        <span slot="subtitle">Employee travel</span>
+      </auro-lockup>
+      <nav>
+        <auro-dropdown id="common" aria-label="Label content for screen reader">
+          <div class="infobar">
+            <div>
+              <div class="infobaritem"><auro-header level="4" margin="both" size="none" display="300">Booking</auro-header></div>
+              <div class="infobaritem">
+                <auro-hyperlink href="#">
+                  <auro-icon accent category="terminal" name="boarding-pass-stroke" />
+                </auro-hyperlink>
+                <auro-hyperlink href="#"><span>ID90</span></auro-hyperlink>
+              </div>
+              <div class="infobaritem">
+                <auro-hyperlink href="#">
+                  <auro-icon accent category="in-flight" name="elite" />
+                </auro-hyperlink>
+                <auro-hyperlink href="#"><span>MyIDTravel</span></auro-hyperlink>
+              </div>
+              <div class="infobaritem">
+                <auro-hyperlink href="#">
+                  <auro-icon accent category="interface" name="contract-fare" />
+                </auro-hyperlink>
+                <auro-hyperlink href="#"><span>Confirmed Employee Tickets</span></auro-hyperlink>
+              </div>
 
-	<nav>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-		</svg>
-		<ul>
-			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:active={$page.url.pathname === '/about'}>
-				<a sveltekit:prefetch href="/about">About</a>
-			</li>
-			<li class:active={$page.url.pathname === '/todos'}>
-				<a sveltekit:prefetch href="/todos">Todos</a>
-			</li>
-		</ul>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-		</svg>
-	</nav>
-
-	<div class="corner">
-		<!-- TODO put something else here? github link? -->
-	</div>
+              <div class="infobaritem">
+                <auro-hyperlink href="#">
+                  <auro-icon accent category="destination" name="hotel" />
+                </auro-hyperlink>
+                <auro-hyperlink href="#"><span>ID90 Hotels</span></auro-hyperlink>
+              </div>
+            </div>
+          </div>
+          <div class="infobar">
+            <div>
+              <div class="infobaritem">
+                <auro-header level="4" margin="both" size="none" display="300">Manage Travel </auro-header>
+              </div>
+              <div class="infobaritem">
+                <auro-hyperlink href="#" type="nav">
+                  <auro-icon accent category="interface" name="account-stroke" />
+                </auro-hyperlink>
+                <auro-hyperlink href="#" type="nav"><span>Annita Holiday</span></auro-hyperlink>
+              </div>
+              <div class="infobaritem">
+                <auro-hyperlink href="#">
+                  <auro-icon accent category="in-flight" name="boarding" />
+                </auro-hyperlink>
+                <auro-hyperlink href="#"><span>Guest Passes</span></auro-hyperlink> <auro-badge pill advisory>12</auro-badge>
+              </div>
+              <div class="infobaritem">
+                <auro-hyperlink href="#">
+                  <auro-icon accent category="interface" name="premium-class-upgrade-available" />
+                </auro-hyperlink>
+                <auro-hyperlink href="#"><span>PST Credits</span></auro-hyperlink>
+                <auro-badge pill>5</auro-badge>
+              </div>
+              <div class="infobaritem">
+                <auro-hyperlink href="#">
+                  <auro-icon accent category="interface" name="mixed-cabin-itinerary" />
+                </auro-hyperlink>
+                <auro-hyperlink href="#"><span>Exchange Credits For Passes</span></auro-hyperlink>
+              </div>
+              <div class="infobaritem">
+                <auro-hyperlink href="#" type="nav">
+                  <auro-icon accent category="terminal" name="booking-stroke" />
+                </auro-hyperlink>
+                <auro-hyperlink href="#" type="nav"><span>Guest Pass History</span></auro-hyperlink>
+              </div>
+            </div>
+          </div>
+          <div class="infobar">
+            <div>
+              <div class="infobaritem"><auro-header level="4" margin="both" size="none" display="300">Travel Info</auro-header></div>
+              <div class="infobaritem">
+                <auro-hyperlink href="#" type="nav">
+                  <auro-icon accent category="in-flight" name="luggage" />
+                </auro-hyperlink>
+                <auro-hyperlink href="#" type="nav"><span>Travel Guidelines</span></auro-hyperlink>
+              </div>
+              <div class="infobaritem">
+                <auro-hyperlink href="#" type="nav">
+                  <auro-icon accent category="interface" name="global-language" />
+                </auro-hyperlink>
+                <auro-hyperlink href="#" type="nav"><span>Pass Agreements</span></auro-hyperlink>
+              </div>
+            </div>
+          </div>
+          <auro-icon category="interface" name="navigation-menu" slot="trigger" tabindex="0" />
+        </auro-dropdown>
+      </nav>
+    </div>
+  </div>
 </header>
 
 <style>
-	header {
-		display: flex;
-		justify-content: space-between;
-	}
+  .infobar {
+    flex: 1;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding);
+  }
+  .infobar + .infobar {
+    padding-top: 0;
+  }
+  .infobar > div {
+    display: flex;
+    flex-direction: column;
+  }
+  .infobaritem {
+    padding: 0 var(--auro-size-md) 0 0;
+  }
 
-	.corner {
-		width: 3em;
-		height: 3em;
-	}
+  header {
+    padding: var(--padding);
+    box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 10%);
+  }
+  @media screen and (min-width: 1024px) {
+    nav {
+      align-self: center;
+      flex-grow: 10;
+      justify-content: flex-end;
+      display: flex;
+    }
+  }
+  auro-dropdown#common {
+    padding-left: var(--padding);
+  }
+  auro-hyperlink span {
+    line-height: 1.75rem;
+    margin-left: 0.5rem;
+  }
+  auro-lockup {
+    flex-basis: 25rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+  .container {
+    display: block;
+    max-width: 1232px;
+    margin: auto;
+  }
 
-	.corner a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: 100%;
-	}
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
 
-	.corner img {
-		width: 2em;
-		height: 2em;
-		object-fit: contain;
-	}
-
-	nav {
-		display: flex;
-		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
-	}
-
-	svg {
-		width: 2em;
-		height: 3em;
-		display: block;
-	}
-
-	path {
-		fill: var(--background);
-	}
-
-	ul {
-		position: relative;
-		padding: 0;
-		margin: 0;
-		height: 3em;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		list-style: none;
-		background: var(--background);
-		background-size: contain;
-	}
-
-	li {
-		position: relative;
-		height: 100%;
-	}
-
-	li.active::before {
-		--size: 6px;
-		content: '';
-		width: 0;
-		height: 0;
-		position: absolute;
-		top: 0;
-		left: calc(50% - var(--size));
-		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--accent-color);
-	}
-
-	nav a {
-		display: flex;
-		height: 100%;
-		align-items: center;
-		padding: 0 1em;
-		color: var(--heading-color);
-		font-weight: 700;
-		font-size: 0.8rem;
-		text-transform: uppercase;
-		letter-spacing: 0.1em;
-		text-decoration: none;
-		transition: color 0.2s linear;
-	}
-
-	a:hover {
-		color: var(--accent-color);
-	}
+  .flex-row {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 </style>
