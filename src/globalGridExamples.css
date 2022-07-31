@@ -5,9 +5,7 @@
   }
   .avatar-cityname,
   .avatar-airport {
-    max-width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
-    text-align: center;
 	white-space: nowrap;
   }
