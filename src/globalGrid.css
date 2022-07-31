@@ -2,31 +2,31 @@
 	display: grid;
 }
 
-@media screen and (max-width: 659px) {
+@media screen and (max-width: 574px) {
 	.grid {
 		grid-gap: var(--auro-size-xs);
 		gap: var(--auro-size-xs);
-		grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
 	}
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 575px) {
 	.grid {
 		grid-gap: var(--auro-size-sm);
 		gap: var(--auro-size-sm);
-		grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.grid {
+		grid-gap: var(--auro-size-md);
+		gap: var(--auro-size-md);
+		grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
 	}
 }
 
 @media screen and (min-width: 1024px) {
-	.grid {
-		grid-gap: var(--auro-size-md);
-		gap: var(--auro-size-md);
-		grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
-	}
-}
-
-@media screen and (min-width: 1232px) {
 	.grid {
 		grid-gap: var(--auro-size-lg);
 		gap: var(--auro-size-lg);
@@ -34,7 +34,7 @@
 	}
 }
 
-@media screen and (min-width: 1233px) {
+@media screen and (min-width: 1440px) {
 	.grid {
 		grid-gap: var(--auro-size-xl);
 		gap: var(--auro-size-xl);
@@ -45,7 +45,6 @@
 .grid-no-wrap {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	align-items: center;
 }
 
 .no-grid-gap {
@@ -245,7 +244,7 @@
 	grid-row-start: 13;
 }
 
-@media (min-width: 659px) {
+@media (min-width: 574px) {
 	.col-xs-1 {
 		grid-column-end: span 1;
 	}
@@ -439,7 +438,7 @@
 	}
 }
 
-@media (min-width: 660px) {
+@media (min-width: 575px) {
 	.col-sm-1 {
 		grid-column-end: span 1;
 	}
@@ -633,7 +632,7 @@
 	}
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 767px) {
 	.col-md-1 {
 		grid-column-end: span 1;
 	}
@@ -827,7 +826,7 @@
 	}
 }
 
-@media (min-width: 1232px) {
+@media (min-width: 1023px) {
 	.col-lg-1 {
 		grid-column-end: span 1;
 	}
@@ -1021,7 +1020,7 @@
 	}
 }
 
-@media (min-width: 1233px) {
+@media (min-width: 1439px) {
 	.col-xl-1 {
 		grid-column-end: span 1;
 	}
@@ -1215,11 +1214,24 @@
 	}
 }
 
-
 /* I added these as a simple way to get scrolling on mobile */
-@media screen and (max-width: 659px) {
+@media screen and (max-width: 767px) {
 	.grid-scroll-2 {
-		grid-template-columns: repeat(2, 218px);
+		grid-template-columns: repeat(2, 340px);
+		overflow: auto;
+	}
+	.grid-scroll-3 {
+		grid-template-columns: repeat(3, 340px);
+		overflow: auto;
+	}
+	.grid-scroll-4 {
+		grid-template-columns: repeat(4, 340px);
+		overflow: auto;
+	}
+}
+@media screen and (max-width: 576px) {
+	.grid-scroll-2 {
+		grid-template-columns: repeat(2, 340px);
 		overflow: auto;
 	}
 	.grid-scroll-3 {
@@ -1231,3 +1243,10 @@
 		overflow: auto;
 	}
 }
+@media screen and (max-width: 430px) {
+	.grid-scroll-2 {
+		grid-template-columns: repeat(2, 218px);
+		overflow: auto;
+	}
+}
+

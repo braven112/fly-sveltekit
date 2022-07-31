@@ -15,7 +15,7 @@ auro-alert {
 }
 .container {
     display: block;
-    max-width: 1232px;
+    max-width: 1440;
     margin: auto;
 }
 </style>

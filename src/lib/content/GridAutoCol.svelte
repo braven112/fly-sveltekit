@@ -99,6 +99,7 @@
 </div>
 
 <style>
+    @import "../../globalGridExamples.css";
   .auto-grid {
     --auto-grid-min-size: 16rem;
     display: grid;
@@ -106,28 +107,28 @@
     gap: var(--auro-size-xs);
   }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 575px) {
 	.auto-grid {
 		gap: var(--auro-size-sm);
 	}
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
 	.auto-grid {
 		gap: var(--auro-size-md);
 	}
 }
 
-@media screen and (min-width: 1232px) {
+@media screen and (min-width: 1024px) {
 	.auto-grid {
 		gap: var(--auro-size-lg);
 	}
 }
 
-@media screen and (min-width: 1233px) {
+@media screen and (min-width: 1440px) {
 	.auto-grid {
 		gap: var(--auro-size-xl);
 	}
 }
-  @import "../../globalGridExamples.css";
+
 </style>

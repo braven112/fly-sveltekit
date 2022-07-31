@@ -2,7 +2,7 @@
 <auro-header level="3" margin="top" size="none" display="500">3 Column Layout - Define columns per beakpoint</auro-header>
 <p>This row will stack on mobile</p>
 <div class="grid">
-  <div class="col-4 grid-item">
+  <div class="col-12 col-lg-4 grid-item">
     <div class="avatar-details">
         <auro-avatar md code="AUS"></auro-avatar>
         <div class="avatar-cityname">Austin, TX</div>
@@ -10,7 +10,7 @@
         <div class="avatar-airport fineprint">AUS</div>
     </div>
   </div>
-  <div class="col-4 grid-item">
+  <div class="col-12 col-lg-4 grid-item">
     <div class="avatar-details">
         <auro-avatar md code="SBP"></auro-avatar>
         <div class="avatar-cityname">San Luis Obispo, CA</div>
@@ -19,7 +19,7 @@
     </div>
   </div>
 
-  <div class="col-4 grid-item">
+  <div class="col-12 col-lg-4 grid-item">
     <div class="avatar-details">
         <auro-avatar md code="SEA"></auro-avatar>
         <div class="avatar-cityname">Seattle, WA</div>
