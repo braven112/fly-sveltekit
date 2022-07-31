@@ -1,36 +1,24 @@
 .grid {
 	display: grid;
+	gap: var(--auro-size-xs);
+	grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
 }
-
-@media screen and (max-width: 574px) {
-	.grid {
-		grid-gap: var(--auro-size-xs);
-		gap: var(--auro-size-xs);
-		grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
-	}
-}
-
 @media screen and (min-width: 575px) {
 	.grid {
-		grid-gap: var(--auro-size-sm);
 		gap: var(--auro-size-sm);
-		grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
 	}
 }
 
 @media screen and (min-width: 768px) {
 	.grid {
-		grid-gap: var(--auro-size-md);
 		gap: var(--auro-size-md);
-		grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
+		/* grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr)); */
 	}
 }
 
 @media screen and (min-width: 1024px) {
 	.grid {
-		grid-gap: var(--auro-size-lg);
 		gap: var(--auro-size-lg);
-		grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
 	}
 }
 
@@ -38,7 +26,7 @@
 	.grid {
 		grid-gap: var(--auro-size-xl);
 		gap: var(--auro-size-xl);
-		grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+		/* grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr)); */
 	}
 }
 
