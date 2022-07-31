@@ -6,8 +6,8 @@
   <div class="container">
     <div class="flex flex-row">
       <auro-lockup>
-        <span slot="title">Fly</span>
-        <span slot="subtitle">Employee travel</span>
+        <span slot="title">Auro</span>
+        <span slot="subtitle">Examples & Demos</span>
       </auro-lockup>
       <nav>
         <auro-dropdown id="common" aria-label="Label content for screen reader">
@@ -123,7 +123,6 @@
   }
 
   header {
-    padding: var(--padding);
     box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 10%);
   }
   @media screen and (min-width: 1024px) {
@@ -150,6 +149,7 @@
     display: block;
     max-width: 1232px;
     margin: auto;
+    padding: var(--padding);
   }
 
   .flex {
