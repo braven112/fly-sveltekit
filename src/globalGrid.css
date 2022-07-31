@@ -12,7 +12,6 @@
 @media screen and (min-width: 768px) {
 	.grid {
 		gap: var(--auro-size-md);
-		/* grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr)); */
 	}
 }
 
@@ -24,9 +23,7 @@
 
 @media screen and (min-width: 1440px) {
 	.grid {
-		grid-gap: var(--auro-size-xl);
 		gap: var(--auro-size-xl);
-		/* grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr)); */
 	}
 }
 
@@ -36,7 +33,6 @@
 }
 
 .no-grid-gap {
-	grid-gap: 0px;
 	gap: 0px;
 }
 
