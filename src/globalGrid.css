@@ -6,6 +6,7 @@
 @media screen and (min-width: 575px) {
 	.grid {
 		gap: var(--auro-size-sm);
+		grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
 	}
 }
 
