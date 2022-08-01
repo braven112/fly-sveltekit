@@ -1214,9 +1214,11 @@
 		overflow: auto;
 	}
 }
+
+/* We should do some math here to ensure that the number of columns * size of columns is always greater that the next breakpoint so it scrolls */
 @media screen and (max-width: 576px) {
 	.grid-scroll-2 {
-		grid-template-columns: repeat(2, 218px);
+		grid-template-columns: repeat(2, 340px);
 		overflow: auto;
 	}
 	.grid-scroll-3 {
