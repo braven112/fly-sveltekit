@@ -1215,7 +1215,7 @@
 }
 @media screen and (max-width: 576px) {
 	.grid-scroll-2 {
-		grid-template-columns: repeat(2, 340px);
+		grid-template-columns: repeat(2, 218px);
 		overflow: auto;
 	}
 	.grid-scroll-3 {
@@ -1224,12 +1224,6 @@
 	}
 	.grid-scroll-4 {
 		grid-template-columns: repeat(4, 218px);
-		overflow: auto;
-	}
-}
-@media screen and (max-width: 430px) {
-	.grid-scroll-2 {
-		grid-template-columns: repeat(2, 218px);
 		overflow: auto;
 	}
 }
