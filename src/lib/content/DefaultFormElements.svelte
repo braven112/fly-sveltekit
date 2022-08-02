@@ -1,7 +1,7 @@
 <auro-header level="3" margin="top" size="none" display="500">Auro Forms</auro-header>
 <p>This page is intended to show all of our form elements all on one page.  We'll continue to add more examples.</p>
 <auro-header level="3" margin="top" size="none" display="500">These are our current `bordered` defalts for all of our form elements</auro-header>
-<p>These examples have no label or placeholder declared.  Its all just the default or fall back optinos when no slot is used or attribute declared.</p>
+<p>These examples have no label or placeholder declared.  Its all just the default or fall back options when no slot is used or attribute declared.</p>
 <div class="grid">
   <div class="grid-item ">
     <auro-header level="4" margin="bottom" size="none" display="200">Auro Input</auro-header>
@@ -33,7 +33,7 @@
     </div>
 </div>
 <auro-header level="3" margin="top" size="none" display="500">These are our current defalts for all of our form elements with a background</auro-header>
-<p>These examples have no label or placeholder declared.  Its all just the default or fall back optinos when no slot is used or attribute declared.</p>
+<p>These examples have no label or placeholder declared.  Its all just the default or fall back options when no slot is used or attribute declared.</p>
 <div class="grid">
   <div class="grid-item background-color">
     <div class="avatar-details">
