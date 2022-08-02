@@ -7,7 +7,7 @@ import DefaultFormElements from "$lib/content/DefaultFormElements.svelte";
 </script>
 
 <svelte:head>
-  <title>Grid: Demo of some of the ways to layout rows</title>
+  <title>Forms: All of our auro form elements on one page</title>
 </svelte:head>
 
 
