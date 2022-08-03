@@ -74,7 +74,7 @@
   margin-bottom: 1rem;
 }
   .background-color {
-    background-color: #ccc;
+    background-color: #eee;
     padding: 1rem;
   }
 </style>
