@@ -1,4 +1,4 @@
-<auro-header level="3" margin="top" size="none" display="500">Auro Forms</auro-header>
+<auro-header level="1" margin="top" size="none" display="900">Auro Forms</auro-header>
 <p>This page is intended to show all of our form elements all on one page.  This page is NOT intended to show how we should do things.  Its intended to show how they CAN be implemented.  This way we can align on fallbacks if necessary and find any potential bugs.  We'll continue to add more examples.</p>
 <auro-header level="3" margin="top" size="none" display="500">These are our current `bordered` defalts for all of our form elements</auro-header>
 <p>These examples have no label or placeholder declared.  Its all just the default or fall back options when no slot is used or attribute declared.</p>
