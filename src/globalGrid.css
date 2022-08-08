@@ -1222,7 +1222,7 @@
 		overflow: auto;
 	}
 	.grid-scroll-3 {
-		grid-template-columns: repeat(3, 218px);
+		grid-template-columns: repeat(3, 228px);
 		overflow: auto;
 	}
 	.grid-scroll-4 {
