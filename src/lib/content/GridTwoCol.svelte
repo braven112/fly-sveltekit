@@ -41,6 +41,7 @@
 
 <auro-header level="3" margin="top" size="none" display="500">2 Column Layout - Page Layout</auro-header>
 <p>The 2 column layout is super powerful and can be used to create full page layouts where one column houses a side nav and the rest of the space allows for content to stack.</p>
+<p>For this scenario do we want to use our default grid system, or should we create a custom grid for this scenerio where we set a specific size for the "side nav" container and allow the right side to scale?  In this example both columns scale to size but we can set a min size for the left column so it will always house the side nav if we want.</p>
 <div class="grid">
   <div class="col-12 col-xs-4 grid-item">
     <div class="avatar-details">
