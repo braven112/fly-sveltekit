@@ -1238,13 +1238,13 @@
 @media screen and (min-width: 575px) {
 	.grid-sidenav {
 		gap: var(--auro-size-sm);
-		grid-template-columns: 330px auto;
 	}
 }
 
 @media screen and (min-width: 768px) {
 	.grid-sidenav {
 		gap: var(--auro-size-md);
+		grid-template-columns: 330px auto;
 	}
 }
 
