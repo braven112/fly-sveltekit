@@ -20,7 +20,7 @@
   @import "../../globalGrid.css";
   .grid-item-sidenav {
     background: var(--auro-color-brand-atlas-100);
-    padding: 1rem;
+    padding: 1.5rem;
     margin: -1.5rem -1.5rem 1rem;
   }
   @media screen and (min-width: 768px) { 
