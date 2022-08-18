@@ -19,6 +19,10 @@
 
 <style>
 footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
     background-color: var(--auro-color-background-darker);
     padding: var(--auro-size-xxxl) var(--padding);
     color: var(--auro-color-text-primary-on-dark);
@@ -34,7 +38,7 @@ footer {
 .contact-info {flex-grow: 4;}
 .container {
     display: block;
-    max-width: 1232px;
+    max-width: 1440px;
     margin: auto;
 }
 .flex {
