@@ -29,7 +29,7 @@
       </auro-menu>
     </auro-combobox>
     <auro-header level="4" margin="bottom" size="none" display="200">Auro Datepicker</auro-header>
-    <auro-datepicker></auro-datepicker>
+    <!-- <auro-datepicker></auro-datepicker> -->
     </div>
 </div>
 <auro-header level="3" margin="top" size="none" display="500">These are our current defalts for all of our form elements with a background</auro-header>
@@ -41,7 +41,7 @@
       <auro-input bordered></auro-input>
       <auro-header level="4" margin="bottom" size="none" display="200">Auro Select</auro-header>
       <auro-select>
-        <auro-menu>
+        <auro-menu noCheckmark >
           <auro-menuoption value="stops">Stops</auro-menuoption>
           <auro-menuoption value="price">Price</auro-menuoption>
           <auro-menuoption value="duration">Duration</auro-menuoption>
@@ -62,7 +62,7 @@
         </auro-menu>
       </auro-combobox>
       <auro-header level="4" margin="bottom" size="none" display="200">Auro Datepicker</auro-header>
-      <auro-datepicker></auro-datepicker>
+      <!-- <auro-datepicker></auro-datepicker> -->
     </div>
   </div>
 </div>
