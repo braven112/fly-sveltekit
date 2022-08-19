@@ -38,7 +38,7 @@ footer {
 .contact-info {flex-grow: 4;}
 .container {
     display: block;
-    max-width: 1440px;
+    max-width: 1232px;
     margin: auto;
 }
 .flex {

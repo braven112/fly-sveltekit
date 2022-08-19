@@ -147,7 +147,7 @@
   }
   .container {
     display: block;
-    max-width: 1440px;
+    max-width: 1232px;
     margin: auto;
     padding: var(--padding);
   }

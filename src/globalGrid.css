@@ -22,7 +22,7 @@
 	}
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1232px) {
 	.grid {
 		gap: var(--auro-size-xl);
 	}
@@ -1254,7 +1254,7 @@
 	}
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1232px) {
 	.grid-sidenav {
 		gap: var(--auro-size-xl);
 	}
