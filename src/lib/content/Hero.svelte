@@ -156,5 +156,6 @@
     display: block;
     max-width: 1232px;
     margin: auto;
+    padding: var(--padding);
   }
 </style>
