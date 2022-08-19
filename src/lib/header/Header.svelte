@@ -13,86 +13,15 @@
         <auro-dropdown id="common" aria-label="Label content for screen reader">
           <div class="infobar">
             <div>
-              <div class="infobaritem"><auro-header level="4" margin="both" size="none" display="300">Booking</auro-header></div>
+              <div class="infobaritem"><auro-header level="4" margin="both" size="none" display="300">Layouts</auro-header></div>
               <div class="infobaritem">
-                <auro-hyperlink href="#">
-                  <auro-icon accent category="terminal" name="boarding-pass-stroke" />
-                </auro-hyperlink>
-                <auro-hyperlink href="#"><span>ID90</span></auro-hyperlink>
+                <auro-hyperlink href="https://auro-examples.vercel.app/grid">Grid</auro-hyperlink>
               </div>
               <div class="infobaritem">
-                <auro-hyperlink href="#">
-                  <auro-icon accent category="in-flight" name="elite" />
-                </auro-hyperlink>
-                <auro-hyperlink href="#"><span>MyIDTravel</span></auro-hyperlink>
+                <auro-hyperlink href="https://auro-examples.vercel.app/sidenav">Sidenav</auro-hyperlink>
               </div>
               <div class="infobaritem">
-                <auro-hyperlink href="#">
-                  <auro-icon accent category="interface" name="contract-fare" />
-                </auro-hyperlink>
-                <auro-hyperlink href="#"><span>Confirmed Employee Tickets</span></auro-hyperlink>
-              </div>
-
-              <div class="infobaritem">
-                <auro-hyperlink href="#">
-                  <auro-icon accent category="destination" name="hotel" />
-                </auro-hyperlink>
-                <auro-hyperlink href="#"><span>ID90 Hotels</span></auro-hyperlink>
-              </div>
-            </div>
-          </div>
-          <div class="infobar">
-            <div>
-              <div class="infobaritem">
-                <auro-header level="4" margin="both" size="none" display="300">Manage Travel </auro-header>
-              </div>
-              <div class="infobaritem">
-                <auro-hyperlink href="#" type="nav">
-                  <auro-icon accent category="interface" name="account-stroke" />
-                </auro-hyperlink>
-                <auro-hyperlink href="#" type="nav"><span>Annita Holiday</span></auro-hyperlink>
-              </div>
-              <div class="infobaritem">
-                <auro-hyperlink href="#">
-                  <auro-icon accent category="in-flight" name="boarding" />
-                </auro-hyperlink>
-                <auro-hyperlink href="#"><span>Guest Passes</span></auro-hyperlink> <auro-badge pill advisory>12</auro-badge>
-              </div>
-              <div class="infobaritem">
-                <auro-hyperlink href="#">
-                  <auro-icon accent category="interface" name="premium-class-upgrade-available" />
-                </auro-hyperlink>
-                <auro-hyperlink href="#"><span>PST Credits</span></auro-hyperlink>
-                <auro-badge pill>5</auro-badge>
-              </div>
-              <div class="infobaritem">
-                <auro-hyperlink href="#">
-                  <auro-icon accent category="interface" name="mixed-cabin-itinerary" />
-                </auro-hyperlink>
-                <auro-hyperlink href="#"><span>Exchange Credits For Passes</span></auro-hyperlink>
-              </div>
-              <div class="infobaritem">
-                <auro-hyperlink href="#" type="nav">
-                  <auro-icon accent category="terminal" name="booking-stroke" />
-                </auro-hyperlink>
-                <auro-hyperlink href="#" type="nav"><span>Guest Pass History</span></auro-hyperlink>
-              </div>
-            </div>
-          </div>
-          <div class="infobar">
-            <div>
-              <div class="infobaritem"><auro-header level="4" margin="both" size="none" display="300">Travel Info</auro-header></div>
-              <div class="infobaritem">
-                <auro-hyperlink href="#" type="nav">
-                  <auro-icon accent category="in-flight" name="luggage" />
-                </auro-hyperlink>
-                <auro-hyperlink href="#" type="nav"><span>Travel Guidelines</span></auro-hyperlink>
-              </div>
-              <div class="infobaritem">
-                <auro-hyperlink href="#" type="nav">
-                  <auro-icon accent category="interface" name="global-language" />
-                </auro-hyperlink>
-                <auro-hyperlink href="#" type="nav"><span>Pass Agreements</span></auro-hyperlink>
+                <auro-hyperlink href="https://auro-examples.vercel.app/forms">Forms</auro-hyperlink>
               </div>
             </div>
           </div>
