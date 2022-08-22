@@ -28,7 +28,7 @@
 	}
 }
 
-/* Needed to adjust the miminum size to 1.5rem on mobile so that it will stack to 2x2 fro a four-column layout. */
+/* Needed to adjust the miminum size to 2rem on mobile so that it will stack to 2x2 for a four-column layout. */
 .grid--four-col {
     grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
 }
