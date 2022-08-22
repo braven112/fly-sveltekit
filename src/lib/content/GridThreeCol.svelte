@@ -90,7 +90,7 @@
 
 <auro-header level="3" margin="top" size="none" display="500">3 Column Layout - Scroll</auro-header>
 <p>This row will scroll on mobile</p>
-<div class="grid grid-scroll-3">
+<div class="grid grid--scroll-3">
   <div class="grid-item">
     <div class="avatar-details">
         <auro-avatar md code="AUS"></auro-avatar>

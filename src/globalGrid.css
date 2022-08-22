@@ -22,10 +22,15 @@
 	}
 }
 
-@media screen and (min-width: 1232px) {
+@media screen and (min-width: 1440px) {
 	.grid {
 		gap: var(--auro-size-xl);
 	}
+}
+
+/* Needed to adjust the miminum size to 1.5rem on mobile so that it will stack to 2x2 fro a four-column layout. */
+.grid--four-col {
+    grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
 }
 
 .grid-no-wrap {
@@ -1201,15 +1206,15 @@
 
 /* I added these as a simple way to get scrolling on mobile */
 @media screen and (max-width: 767px) {
-	.grid-scroll-2 {
+	.grid--scroll-2 {
 		grid-template-columns: repeat(2, 340px);
 		overflow: auto;
 	}
-	.grid-scroll-3 {
+	.grid--scroll-3 {
 		grid-template-columns: repeat(3, 340px);
 		overflow: auto;
 	}
-	.grid-scroll-4 {
+	.grid--scroll-4 {
 		grid-template-columns: repeat(4, 340px);
 		overflow: auto;
 	}
@@ -1217,15 +1222,15 @@
 
 /* We should do some math here to ensure that the number of columns * size of columns is always greater that the next breakpoint so it scrolls */
 @media screen and (max-width: 576px) {
-	.grid-scroll-2 {
+	.grid--scroll-2 {
 		grid-template-columns: repeat(2, 340px);
 		overflow: auto;
 	}
-	.grid-scroll-3 {
+	.grid--scroll-3 {
 		grid-template-columns: repeat(3, 228px);
 		overflow: auto;
 	}
-	.grid-scroll-4 {
+	.grid--scroll-4 {
 		grid-template-columns: repeat(4, 218px);
 		overflow: auto;
 	}
@@ -1254,7 +1259,7 @@
 	}
 }
 
-@media screen and (min-width: 1232px) {
+@media screen and (min-width: 1440px) {
 	.grid-sidenav {
 		gap: var(--auro-size-xl);
 	}

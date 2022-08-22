@@ -154,7 +154,7 @@
 
 <auro-header level="3" margin="top" size="none" display="500">2 Column Layout - Scroll</auro-header>
 <p>We can also set it to scroll on mobile</p>
-<div class="grid grid-scroll-2">
+<div class="grid grid--scroll-2">
   <div class="grid-item">
     <div class="avatar-details">
       <auro-avatar md code="LIH" />
