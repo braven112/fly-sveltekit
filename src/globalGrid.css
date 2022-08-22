@@ -29,7 +29,7 @@
 }
 
 /* Needed to adjust the miminum size to 2rem on mobile so that it will stack to 2x2 for a four-column layout. */
-.grid--four-col {
+.grid--2x2 {
     grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
 }
 

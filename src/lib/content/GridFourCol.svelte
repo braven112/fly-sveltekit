@@ -36,7 +36,7 @@
 </div>
 <auro-header level="3" margin="top" size="none" display="500">4 Column Layout - 2x2</auro-header>
 <p>This row will collapse to 2 rows of 2 on mobile</p>
-<div class="grid grid--four-col">
+<div class="grid grid--2x2">
   <div class="col-6 col-md-3 grid-item">
     <div class="avatar-details">
         <auro-avatar md code="AUS"></auro-avatar>
