@@ -1,5 +1,4 @@
-<auro-header level="3" margin="top" size="none" display="500">Default form inputs</auro-header>
-<p>No properties used in this example</p>
+<auro-header level="3" margin="top" size="none" display="500">Default form inputs - No properties used in this example</auro-header>
 <div class="grid grid--scroll-3">
   <div class="grid-item">
     <auro-combobox>
@@ -31,8 +30,7 @@
   </div>
 </div>
 
-<auro-header level="3" margin="top" size="none" display="500">Default form inputs</auro-header>
-<p>Label and help text is included in these examples</p>
+<auro-header level="3" margin="top" size="none" display="500">Form inputs - Label and help text is included in these examples</auro-header>
 <div class="grid grid--scroll-3">
   <div class="grid-item">
     <auro-combobox>
