@@ -13,7 +13,7 @@
         <auro-dropdown id="common" aria-label="Label content for screen reader">
           <div class="infobar">
             <div>
-              <div class="infobaritem"><auro-header level="4" margin="both" size="none" display="300">Layouts</auro-header></div>
+              <div class="infobaritem"><auro-header level="4" margin="both" size="none" display="300">Examples</auro-header></div>
               <div class="infobaritem">
                 <auro-hyperlink href="https://auro-examples.vercel.app/grid">Grid</auro-hyperlink>
               </div>
@@ -22,6 +22,9 @@
               </div>
               <div class="infobaritem">
                 <auro-hyperlink href="https://auro-examples.vercel.app/forms">Forms</auro-hyperlink>
+              </div>
+              <div class="infobaritem">
+                <auro-hyperlink href="https://auro-examples.vercel.app/form-heights">Forms Heights</auro-hyperlink>
               </div>
             </div>
           </div>
