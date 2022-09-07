@@ -36,8 +36,8 @@
 <div class="grid grid--scroll-3">
   <div class="form-groups">
     <auro-combobox>
-        <span slot="label">This is a label</span>
-        <span slot="helpText">This is help text</span>
+        <span slot="label">This is an auro-combobox label</span>
+        <span slot="helpText">This is auro-combobox help text</span>
       <auro-menu>
         <auro-menuoption value="Apples" id="option-0">Apples</auro-menuoption>
         <auro-menuoption value="Oranges" id="option-1">Oranges</auro-menuoption>
@@ -51,8 +51,8 @@
 
   <div class="form-groups">
     <auro-select>
-        <span slot="label">This is a label</span>
-        <span slot="helpText">This is help text</span>
+        <span slot="label">This is an auro-select label</span>
+        <span slot="helpText">This is auro-select help text</span>
         <auro-menu>
           <auro-menuoption value="stops">Stops</auro-menuoption>
           <auro-menuoption value="price">Price</auro-menuoption>
@@ -65,8 +65,8 @@
   </div>
   <div class="form-groups">     
       <auro-input bordered>
-        <span slot="label">This is a label</span>
-        <span slot="helptext">This is help text</span>
+        <span slot="label">This is an auro-input label</span>
+        <span slot="helptext">This is auro-input help text</span>
       </auro-input>
   </div>
 </div>
@@ -75,7 +75,7 @@
 <div class="grid grid--scroll-3">
   <div class="form-groups">
     <auro-combobox>
-      <span slot="helpText">This is help text</span>
+      <span slot="helpText">This is auro-combobox help text</span>
       <auro-menu>
         <auro-menuoption value="Apples" id="option-0">Apples</auro-menuoption>
         <auro-menuoption value="Oranges" id="option-1">Oranges</auro-menuoption>
@@ -89,7 +89,7 @@
 
   <div class="form-groups">
     <auro-select>
-        <span slot="helpText">This is help text</span>
+        <span slot="helpText">This is auro-select help text</span>
         <auro-menu>
           <auro-menuoption value="stops">Stops</auro-menuoption>
           <auro-menuoption value="price">Price</auro-menuoption>
@@ -102,7 +102,7 @@
   </div>
   <div class="form-groups">     
     <auro-input bordered>
-      <span slot="helptext">This is help text</span>
+      <span slot="helptext">This is auro-input help text</span>
     </auro-input>
   </div>
 </div>
@@ -112,7 +112,7 @@
 <div class="grid grid--scroll-3">
   <div class="form-groups">
     <auro-combobox>
-        <span slot="label">This is a label</span>
+        <span slot="label">This is an auro-combobox label</span>
       <auro-menu>
         <auro-menuoption value="Apples" id="option-0">Apples</auro-menuoption>
         <auro-menuoption value="Oranges" id="option-1">Oranges</auro-menuoption>
@@ -126,7 +126,7 @@
 
   <div class="form-groups">
     <auro-select>
-        <span slot="label">This is a label</span>
+        <span slot="label">This is an auro-select label</span>
         <auro-menu>
           <auro-menuoption value="stops">Stops</auro-menuoption>
           <auro-menuoption value="price">Price</auro-menuoption>
@@ -139,7 +139,7 @@
   </div>
   <div class="form-groups">     
     <auro-input bordered>
-      <span slot="label">This is a label</span>
+      <span slot="label">This is an auro-input label</span>
     </auro-input>
   </div>
 </div>

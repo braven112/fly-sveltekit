@@ -3,7 +3,7 @@
 </script>
 
 <script>
-  import FormHeightValidation from "$lib/content/FormExamples.svelte";
+  import FormExamples from "$lib/content/FormExamples.svelte";
 </script>
 
 <svelte:head>
@@ -18,11 +18,11 @@
     </p>
   <div class="row from-bg">
     <auro-header display="700">background</auro-header>
-    <FormHeightValidation />
+    <FormExamples />
   </div>
   <div class="row defalt">
     <auro-header display="700">No background</auro-header>
-    <FormHeightValidation />
+    <FormExamples />
   </div>
 </div>
 
