@@ -23,9 +23,6 @@
               <div class="infobaritem">
                 <auro-hyperlink href="https://auro-examples.vercel.app/forms">Forms</auro-hyperlink>
               </div>
-              <div class="infobaritem">
-                <auro-hyperlink href="https://auro-examples.vercel.app/form-heights">Forms Heights</auro-hyperlink>
-              </div>
             </div>
           </div>
           <auro-icon category="interface" name="navigation-menu" slot="trigger" tabindex="0" />
