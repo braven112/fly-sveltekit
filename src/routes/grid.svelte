@@ -16,7 +16,8 @@ import GridTwoCol from "$lib/content/GridTwoCol.svelte";
 
 
 <div class="mainContent">
-  <auro-header>Auro Grid</auro-header>
+  <auro-header margin="bottom" size="none">Auro Grid</auro-header>
+  <p>Simplify your UX on tablet and mobile</p>
   <div class="row"><GridTwoCol /></div>
   <div class="row"><GridThreeCol /></div>
   <div class="row"><GridFourCol /></div>
