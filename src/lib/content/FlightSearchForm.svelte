@@ -17,18 +17,15 @@
       <CityMenuOptions />
     </auro-menu>
   </auro-combobox>
-  <auro-popover placement="bottom" removeSpace>
-    This will be updated to include a calendar to select dates as well.
-    <auro-input id="dateDemo" required bordered type="month-day-year" slot="trigger">
-      <slot slot="label">Departure date</slot>
-    </auro-input>
-  </auro-popover>
+  <auro-datepicker required>
+    <span slot="label">Choose a date</span>
+  </auro-datepicker>
   <auro-button fluid>Search</auro-button>
 </div>
 
 <style>
   auro-input,
-  auro-combobox {
+  auro-combobox, auro-datepicker {
     margin-bottom: var(--auro-size-md);
   }
   .formWrapper {
