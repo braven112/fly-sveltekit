@@ -1249,7 +1249,7 @@
 @media screen and (min-width: 768px) {
 	.grid-sidenav {
 		gap: var(--auro-size-md);
-		grid-template-columns: 330px auto;
+		grid-template-columns: 326px auto;
 	}
 }
 
