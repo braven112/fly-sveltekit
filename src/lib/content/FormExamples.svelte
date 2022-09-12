@@ -292,6 +292,44 @@
   </div>
 </div>
 
+
+<auro-header level="3" margin="bottom" size="none" display="500">Auro Form inputs</auro-header>
+<auro-header level="5" margin="top" size="none" display="300">These examples have error="this is overriding help text"</auro-header>
+<div class="grid grid--scroll-3">
+  <div class="form-groups">
+    <auro-combobox novalidate error="this is overriding help text" required>
+        <span slot="label">This is an auro-combobox label</span>
+      <auro-menu>
+        <auro-menuoption value="Apples" id="option-0">Apples</auro-menuoption>
+        <auro-menuoption value="Oranges" id="option-1">Oranges</auro-menuoption>
+        <auro-menuoption value="Peaches" id="option-2">Peaches</auro-menuoption>
+        <auro-menuoption value="Grapes" id="option-3">Grapes</auro-menuoption>
+        <auro-menuoption value="Cherries" id="option-4">Cherries</auro-menuoption>
+        <auro-menuoption static nomatch>No matching option</auro-menuoption>
+      </auro-menu>
+    </auro-combobox>
+  </div>
+
+  <div class="form-groups">
+    <auro-select novalidate error="this is overriding help text" required>
+        <span slot="label">This is an auro-select label</span>
+        <auro-menu>
+          <auro-menuoption value="stops">Stops</auro-menuoption>
+          <auro-menuoption value="price">Price</auro-menuoption>
+          <auro-menuoption value="duration">Duration</auro-menuoption>
+          <auro-menuoption value="departure">Departure</auro-menuoption>
+          <auro-menuoption value="arrival">Arrival</auro-menuoption>
+          <auro-menuoption value="prefer alaska">Prefer Alaska</auro-menuoption>
+        </auro-menu>
+      </auro-select>
+  </div>
+  <div class="form-groups">     
+    <auro-input novalidate error="this is overriding help text" required bordered>
+      <span slot="label">This is an auro-input label</span>
+    </auro-input>
+  </div>
+</div>
+
 <style>
   .grid {
   margin-bottom: 1rem;
