@@ -1236,7 +1236,7 @@
 	}
 }
 
-.grid-sidenav {
+/* .grid-sidenav {
 	display: grid;
 	gap: var(--auro-size-xs);
 }
@@ -1263,52 +1263,92 @@
 	.grid-sidenav {
 		gap: var(--auro-size-xl);
 	}
-}
-
-.grid-sidenav3col {
+} */
+/* /////////////////////////// */
+.grid-sidenav {
 	display: grid;
 	gap: var(--auro-size-xs);
 	grid-template-areas: "leftsidebar"
 	"breadcrumbs"
-	"content"
-	"rightsidebar";
+	"content";
+	padding: 0 var(--padding) var(--padding);
 }
 .breadcrumbs-area{
 	grid-area: breadcrumbs;
 }
 .leftsidebar-area{
 	grid-area: leftsidebar;
+	margin: 0 -1.5rem;
 }
+
 .content-area{
 	grid-area: content;
 }
-.rightsidebar-area{
-	grid-area: rightsidebar;
-}
+
 @media screen and (min-width: 575px) {
-	.grid-sidenav3col {
+	.grid-sidenav {
 		gap: var(--auro-size-sm);
 	}
 }
 
 @media screen and (min-width: 768px) {
-	.grid-sidenav3col {
+	.grid-sidenav {
 		gap: var(--auro-size-md);
-		grid-template-areas: "breadcrumbs breadcrumbs breadcrumbs"
-		"leftsidebar content rightsidebar";
-		grid-template-rows: auto;
-		grid-template-columns: 326px auto 200px;
+		grid-template-areas: "breadcrumbs breadcrumbs"
+		"leftsidebar content";
+		grid-template-columns: 326px auto;
+		padding: var(--padding);
+	}
+	.leftsidebar-area {
+		margin: unset;
 	}
 }
 
 @media screen and (min-width: 1024px) {
-	.grid-sidenav3col {
+	.grid-sidenav {
 		gap: var(--auro-size-lg);
+		grid-template-areas: "breadcrumbs breadcrumbs breadcrumbs"
+		"leftsidebar content rightsidebar";
+		grid-template-columns: 326px auto 200px;
+
+	}
+	.rightsidebar-area{
+		display: grid;
 	}
 }
 
 @media screen and (min-width: 1440px) {
-	.grid-sidenav3col {
+	.grid-sidenav {
 		gap: var(--auro-size-xl);
 	}
 }
+
+.grid-sidenav--3col {
+	grid-template-areas: "leftsidebar"
+	"breadcrumbs"
+	"content"
+	"rightsidebar";
+}
+.rightsidebar-area{
+	grid-area: rightsidebar;
+	display: none;
+}
+@media screen and (min-width: 768px) {
+	.grid-sidenav {
+		grid-template-areas: "breadcrumbs breadcrumbs"
+		"leftsidebar content";
+		grid-template-columns: 326px auto;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.grid-sidenav--3col {
+		grid-template-areas: "breadcrumbs breadcrumbs breadcrumbs"
+		"leftsidebar content rightsidebar";
+		grid-template-columns: 326px auto 200px;
+
+	}
+	.rightsidebar-area{
+		display: grid;
+	}
+}
+

@@ -2,7 +2,7 @@
   import BreadcrumbExample from "$lib/content/BreadcrumbExample.svelte";
 
 </script>
-<div class="grid-sidenav3col">
+<div class="grid-sidenav grid-sidenav--3col">
   <div class="grid-item-breadcrumbs breadcrumbs-area">
     <BreadcrumbExample />
   </div>
@@ -30,20 +30,9 @@
   .grid-item-leftnav {
     background: var(--auro-color-brand-neutral-200);
     padding: 1.5rem;
-    margin: -1.5rem -1.5rem 1rem;
-  }
-  @media screen and (min-width: 768px) { 
-    .grid-item-leftnav {
-    margin: unset;
-    }
   }
   .grid-item-rightnav {
     background: var(--auro-color-brand-neutral-100);
     padding: 1.5rem;
-  }
-  @media screen and (min-width: 768px) { 
-    .grid-item-rightnav {
-    margin: unset;
-    }
   }
 </style>

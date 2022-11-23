@@ -1,6 +1,12 @@
+<script>
+  import BreadcrumbExample from "$lib/content/BreadcrumbExample.svelte";
 
+</script>
 <div class="grid-sidenav">
-  <div class="grid-item-sidenav">
+  <div class="grid-item-breadcrumbs breadcrumbs-area">
+    <BreadcrumbExample />
+  </div>
+  <div class="grid-item-leftnav leftsidebar-area">
         <div class="avatar-cityname">Sidenav goes here</div>
   </div>
   <div class="grid-item-content">
@@ -54,14 +60,9 @@
   @import "../../globalGrid.css";
   @import "../../globalGridExamples.css";
   @import "../../autoGrid.css";
-  .grid-item-sidenav {
-    background: var(--auro-color-brand-atlas-100);
+  .grid-item-leftnav {
+    background: var(--auro-color-brand-neutral-200);
     padding: 1.5rem;
-    margin: -1.5rem -1.5rem 1rem;
   }
-  @media screen and (min-width: 768px) { 
-    .grid-item-sidenav {
-    margin: unset;
-    }
-  }
+
 </style>

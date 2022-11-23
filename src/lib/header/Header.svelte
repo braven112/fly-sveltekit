@@ -21,6 +21,9 @@
                 <auro-hyperlink href="https://auro-examples.vercel.app/sidenav">Sidenav</auro-hyperlink>
               </div>
               <div class="infobaritem">
+                <auro-hyperlink href="https://auro-examples.vercel.app/sidenav3col">Sidenav - 3 column</auro-hyperlink>
+              </div>
+              <div class="infobaritem">
                 <auro-hyperlink href="https://auro-examples.vercel.app/forms">Forms</auro-hyperlink>
               </div>
             </div>

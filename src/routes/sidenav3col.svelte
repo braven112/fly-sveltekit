@@ -16,17 +16,5 @@
 </svelte:head>
 
 
-<div class="mainContent">
-  <div class="row"><SideNav3ColExample /></div>
-</div>
+<SideNav3ColExample />
 
-<style>
-	.mainContent {
-    padding: var(--padding);
-    display: block;
-}
-.row {
-  margin-bottom: 3rem;
-}
-
-</style>

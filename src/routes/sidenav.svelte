@@ -15,17 +15,5 @@ import SideNavExample from "$lib/content/SideNavExample.svelte";
 </svelte:head>
 
 
-<div class="mainContent">
-  <div class="row"><SideNavExample /></div>
-</div>
+<SideNavExample />
 
-<style>
-	.mainContent {
-    padding: var(--padding);
-    display: block;
-}
-.row {
-  margin-bottom: 3rem;
-}
-
-</style>
